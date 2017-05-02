@@ -48,6 +48,16 @@
 		-webkit-text-size-adjust: none;
 	}
 
+    .greyBackground {
+        background-color: #6C7A89;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .greyBackground a {
+        text-align: center;
+    }
+
 /* Box Model */
 
 	*, *:before, *:after {
