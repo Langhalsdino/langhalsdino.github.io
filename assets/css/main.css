@@ -1951,7 +1951,6 @@
 			top: 0;
 			width: 100%;
 			height: 100%;
-			background: url("images/overlay.png");
 		}
 
 		.image img {
@@ -2909,6 +2908,15 @@
 	}
 
 /* Work */
+
+    #work .spacing .cardShaddow {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+    }
+
+    #work .spacing {
+        padding: 0 10px 0 10px;
+    }
 
 	#work .row.images .image {
 		-moz-transition: all 1s ease;
